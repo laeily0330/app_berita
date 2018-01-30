@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_camera" type="id">nav_camera</item>
+    <item name="nav_gallery" type="id">nav_gallery</item>
+    <item name="nav_slideshow" type="id">nav_slideshow</item>
+    <item name="nav_manage" type="id">nav_manage</item>
+    <item name="nav_share" type="id">nav_share</item>
+    <item name="nav_send" type="id">nav_send</item>
+    <item name="name" type="id">name</item>
+    <item name="website" type="id">website</item>
+    <item name="img_header_bg" type="id">img_header_bg</item>
+    <item name="img_profile" type="id">img_profile</item>
+    <item name="toolbar" type="id">toolbar</item>
+</resources>

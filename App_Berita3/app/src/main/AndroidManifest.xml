@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nurporek.app_berita">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Zeroest News"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Zeroest News"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".halaman.hal_politik" />
+        <!--<activity android:name=".MainActivity" />-->
+        <activity android:name=".halaman.hal_teknologi" />
+        <activity android:name=".halaman.hal_sport" />
+        <activity android:name=".halaman.hal_infotaiment" />
+        <activity android:name=".halaman.hal_movies" />
+        <activity android:name=".halaman.hal_about" />
+        <activity android:name=".halaman.hal_privacy" />
+        <activity android:name=".halaman.LoginActivity" />
+        <activity android:name=".halaman.hal_settings" />
+        <activity android:name=".halaman.hal_registrasi" />
+        <activity android:name=".DetailFragmentOne" />
+        <activity android:name=".DetailFragmentTwo" />
+        <activity android:name=".DetailFragmentThree" />
+        <activity android:name=".TambahComment" />
+        <activity android:name=".DetailBerita" />
+        <activity
+            android:name=".DetailNews"
+            android:label="@string/title_activity_detail_news"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

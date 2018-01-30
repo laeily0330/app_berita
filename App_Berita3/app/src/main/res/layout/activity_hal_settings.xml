@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hal_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/desain7"
+    tools:context="com.example.nurporek.app_berita.halaman.hal_settings">
+
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/title_first_section">-->
+
+        <!--<CheckBoxPreference-->
+            <!--android:key="checkbox_preference"-->
+            <!--android:title="@string/title_checkbox_preference"-->
+            <!--android:defaultValue="@string/default_checkbox_preference"/>-->
+
+        <!--<EditTextPreference-->
+            <!--android:key="edittext_preference"-->
+            <!--android:title="@string/title_edittext_preference"-->
+            <!--android:summary="@string/summary_edittext_preference"-->
+            <!--android:dialogTitle="@string/dialog_title_edittext_preference"-->
+            <!--android:dependency="checkbox_preference" />-->
+
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/title_second_section">-->
+
+        <!--<ListPreference-->
+            <!--android:key="list_preference"-->
+            <!--android:title="@string/title_list_preference"-->
+            <!--android:dialogTitle="@string/dialog_title_list_preference"-->
+            <!--android:entries="@array/entries_list_preference"-->
+            <!--android:entryValues="@array/entryvalues_list_preference" />-->
+
+        <!--<Preference-->
+            <!--android:title="@string/title_intent_preference">-->
+            <!--<intent android:action="android.intent.action.VIEW"-->
+                <!--android:data="http://codepath.com/" />-->
+        <!--</Preference>-->
+
+    <!--</PreferenceCategory>-->
+
+    <TextView
+        android:text="Setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="2dp"
+        android:id="@+id/textView11"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black" />
+</android.support.constraint.ConstraintLayout>
